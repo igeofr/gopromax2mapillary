@@ -9,7 +9,6 @@ flowchart TD;
     R --> |ogr/sql|B{Suppression des<br>images inutiles}
     B --> |nadir-patcher.py| C{Ajout du logo}
     C --> E(Mapillary Desktop)
-    E --> |Publication| F(Mapillary)
 ```
 
 ## Pré-requis
